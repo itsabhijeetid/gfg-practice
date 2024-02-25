@@ -1,2 +1,8 @@
 # gfg-practice
-My personal reasoning
+My personal reasoning...
+
+while (noSuccess) {
+    tryAgain();
+    if (Dead)
+      break;
+}
