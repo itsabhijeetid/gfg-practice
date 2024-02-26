@@ -10,7 +10,7 @@ using namespace std;
 
 int reverseHelper (int n) {
     int rev = n%10;
-    while((n/=10) > 0) 
+    while(n/=10) 
         rev = rev*10+(n%10);
     return rev;
 }
