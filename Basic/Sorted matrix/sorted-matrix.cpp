@@ -11,9 +11,9 @@ class Solution {
   public:
     vector<vector<int>> sortedMatrix(int N, vector<vector<int>> Mat) {
         vector<vector<int>> ans;
+        vector<int> v;
         int n = Mat[0].size();
         
-        vector<int> v;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++)
                 v.push_back(Mat[i][j]);
