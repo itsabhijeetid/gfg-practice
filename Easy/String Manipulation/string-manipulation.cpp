@@ -12,8 +12,7 @@ class Solution{
     int removeConsecutiveSame(vector <string > v) 
     {
         stack<string> s;
-        s.push(v[0]);
-        for (int i = 1; i < v.size(); i++) {
+        for (int i = 0; i < v.size(); i++) {
             if (!s.empty() and v[i] == s.top()) s.pop();
             else s.push(v[i]);
         }
