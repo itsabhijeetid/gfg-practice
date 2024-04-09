@@ -29,8 +29,7 @@ string ReverseSort(string str) {
  for(int i = 25; i >= 0; i--) {
      char f = i+'a';
      if (m[f] > 0)
-         for (int j = 0; j < m[f]; j++) 
-             str+=f;
+         for (int j = 0; j < m[f]; j++) str+=f;
  }
  return str;
 }
